@@ -4,7 +4,6 @@
 
 🌐 Demo: `https://finalproject-visdat.vercel.app/`
 
-> Ganti URL tersebut setelah dashboard benar-benar di-deploy. Screenshot localhost tidak memenuhi komponen deployment.
 
 ## Fitur Dashboard
 
@@ -37,14 +36,13 @@ Satu judul dapat muncul pada beberapa baris apabila dirilis di platform berbeda.
 ## Struktur Folder
 
 ```text
- dashboard/
- ├── index.html
- ├── style.css
- ├── app.js
- ├── vgsales_snapshot_top150.csv
- ├── CATATAN_DATA.md
- └── README.md
-```
+tugasvisdat/
+├── index.html
+├── style.css
+├── app.js
+├── vgsales_snapshot_top150.csv
+├── CATATAN_DATA.md
+└── README.md
 
 ## Menjalankan di Lokal
 
@@ -59,7 +57,7 @@ Kemudian buka `http://localhost:3000`. Chart.js dan font dipanggil melalui CDN s
 ## Deploy ke Vercel
 
 1. Buat repository GitHub publik.
-2. Unggah seluruh isi folder `dashboard`.
+2. Unggah seluruh file project ke root repository GitHub.
 3. Import repository pada Vercel.
 4. Pilih preset **Other/Static** tanpa build command.
 5. Klik **Deploy**.
@@ -79,5 +77,5 @@ Kemudian buka `http://localhost:3000`. Chart.js dan font dipanggil melalui CDN s
 - M Hafid Ramadhan — 103012330194
 - Akbar Jundi Pradita — 103012300081
 - Muhammad Rifqi Syahban Arzakhy — 103012300418
-- Muhammad Alivio putra — 103012300098
+- Muhammad Alivio Putra — 103012300098
 - Farrel Musyaffa — 103012300147
